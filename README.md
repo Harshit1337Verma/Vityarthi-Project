@@ -117,5 +117,4 @@ http://127.0.0.1:8000/new
 Note: You must log into the Admin Panel to add Product and Offer data before anything will appear on the main / page.
 
 >Important Security Note
-
->>The settings.py file contains sensitive data (like the SECRET_KEY). When pushing to GitHub, ensure that you have configured your environment to load the SECRET_KEY from a secure source (like a local .env file that is listed in your .gitignore).
+The settings.py file contains sensitive data (like the SECRET_KEY). When pushing to GitHub, ensure that you have configured your environment to load the SECRET_KEY from a secure source (like a local .env file that is listed in your .gitignore).
